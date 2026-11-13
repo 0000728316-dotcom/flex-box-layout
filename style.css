@@ -1,0 +1,96 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+body,html{
+    height: 100%;
+}
+
+
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.principal{
+    background-color: aliceblue;
+    display: flex;
+    height: 100%;
+    border: 1px solid black;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%;
+
+
+}
+
+.header {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.logo, .bnt{
+    background-color: rgb(107, 106, 106);
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.nav span{
+    background-color: rgb(107, 106, 106);
+    border: 1px solid black;
+    padding: 5px;
+ 
+}
+
+.hero{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 10%;
+}
+    
+
+.textos h2{
+    background-color: rgb(107, 106, 106);
+    border: 1px solid black;
+    padding: 5px;
+    width:300px ;
+    margin-bottom: 10px;
+}
+.textos h3{
+    background-color: rgb(107, 106, 106);
+    border: 1px solid black;
+    padding: 5px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.textos p{
+    background-color: rgb(107, 106, 106);
+    border: 1px solid black;
+    padding: 5px;
+    width: 150px;
+    margin-bottom: 10px;
+
+}
+
+.img{
+    height: 150px;
+    border: 1px solid black;
+    background-color: grey;
+    width: 500px;
+    justify-items: center;
+    align-items: center;
+
+
+}
